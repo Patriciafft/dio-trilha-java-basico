@@ -12,6 +12,9 @@ public class Usuario {
 
         smartTv.ligar ();
         System.out.println("Tv ligada? " + smartTv.ligada);
+
+        smartTv.desligar();
+        System.out.println("Tv desligada? " +smartTv.desligada);
         
 
 
