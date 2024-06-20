@@ -6,7 +6,7 @@ public class ContaBanco {
     String agencia, nomeCliente;
     float saldo;
 
-    // Constructor
+    // Construtor
     public ContaBanco(int numero, String agencia, String nomeCliente, float saldo) {
         this.numero = numero;
         this.agencia = agencia;
@@ -14,8 +14,7 @@ public class ContaBanco {
         this.saldo = saldo;
     }
 
-    // Método para inserir via terminal com a classe Scanner os valores dos
-    // atributos
+    // Método para inserir via terminal com a classe Scanner
     public void inserir() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o número da conta: ");
