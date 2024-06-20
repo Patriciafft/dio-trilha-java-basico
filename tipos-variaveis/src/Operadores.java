@@ -1,7 +1,6 @@
 public class Operadores {
 
     public static void main(String[] args) {
-        
 
         int number = 58;
         System.out.println(number);
@@ -22,28 +21,26 @@ public class Operadores {
 
         /* Entendendo equals e == */
 
-        if (number1 == number2) { 
-            
-            System.out.println("Os valores são iguais!");}
-         else 
-        
-         {System.out.println("Os valores são diferentes");}
+        if (number1 == number2) {
+
+            System.out.println("Os valores são iguais!");
+        } else
+
+        {
+            System.out.println("Os valores são diferentes");
+        }
 
         String nome1 = "Patrícia";
-        String nome2 = new String ("Patrícia");
+        String nome2 = new String("Patrícia");
 
-        if (nome1 == nome2) { 
+        if (nome1 == nome2) {
             System.out.println("Nomes iguais");
+        } else {
+            System.out.println("Nomes diferentes");
         }
-        else {
-            System.out.println("Nomes diferentes");}
 
         System.out.println(nome1.equals(nome2));
 
+    }
 
-        }
-
-
-
-    
 }
