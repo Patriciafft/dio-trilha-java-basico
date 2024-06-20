@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class ContaTerminal {
+public class ContaBanco {
     // Atributos
     int numero;
     String agencia, nomeCliente;
     float saldo;
 
     // Constructor
-    public ContaTerminal(int numero, String agencia, String nomeCliente, float saldo) {
+    public ContaBanco(int numero, String agencia, String nomeCliente, float saldo) {
         this.numero = numero;
         this.agencia = agencia;
         this.nomeCliente = nomeCliente;
@@ -31,9 +31,11 @@ public class ContaTerminal {
 
     }
 
-    // Método para escrever: Olá [Nome Cliente], obrigado por criar uma conta em
-    // nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já
-    // está disponível para saque.
+    /*
+     * Método para escrever: Olá [Nome Cliente], obrigado por criar uma conta em
+     * nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já
+     * está disponível para saque.
+     */
     public void escrever() {
         System.out.println("Olá " + this.nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é "
                 + this.agencia + ", conta " + this.numero + " e seu saldo " + this.saldo
@@ -42,7 +44,7 @@ public class ContaTerminal {
 
     public static void main(String[] args) throws Exception {
         // Criação de um objeto da classe ContaTerminal
-        ContaTerminal conta = new ContaTerminal(0, "", "", 0);
+        ContaBanco conta = new ContaBanco(0, "", "", 0);
 
         // Chamada dos métodos
         conta.inserir();
