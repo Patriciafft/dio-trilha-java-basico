@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Desafio",
+            "request": "launch",
+            "mainClass": "Desafio",
+            "projectName": "src_5bebde0c"
+        },
+        {
+            "type": "java",
+            "name": "MainContaBancaria",
+            "request": "launch",
+            "mainClass": "MainContaBancaria",
+            "projectName": "src_5bebde0c"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ControleSimplesDeSaques",
+            "request": "launch",
+            "mainClass": "ControleSimplesDeSaques",
+            "projectName": "src_5bebde0c"
+        },
+        {
+            "type": "java",
+            "name": "RegistroTransacoesBancarias",
+            "request": "launch",
+            "mainClass": "RegistroTransacoesBancarias",
+            "projectName": "src_5bebde0c"
+        },
+        {
+            "type": "java",
+            "name": "RegistroTransacoesComStream",
+            "request": "launch",
+            "mainClass": "RegistroTransacoesComStream",
+            "projectName": "src_5bebde0c"
+        },
+        {
+            "type": "java",
+            "name": "SimulacaoBancaria",
+            "request": "launch",
+            "mainClass": "SimulacaoBancaria",
+            "projectName": "src_5bebde0c"
+        },
+        {
+            "type": "java",
+            "name": "VerificacaoChequeEspecial",
+            "request": "launch",
+            "mainClass": "VerificacaoChequeEspecial",
+            "projectName": "src_5bebde0c"
+        },
+        {
+            "type": "java",
+            "name": "VerificadorNumeroConta",
+            "request": "launch",
+            "mainClass": "VerificadorNumeroConta",
+            "projectName": "src_5bebde0c"
+        }
+    ]
+}
